@@ -1,0 +1,8 @@
+.all{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #2b1e16;
+    padding: 0 20px;
+    font-weight: 100;
+}

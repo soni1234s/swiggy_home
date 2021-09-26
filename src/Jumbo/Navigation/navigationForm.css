@@ -1,0 +1,20 @@
+.header{
+    padding: 5px;
+    width: 80%;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.adv{
+    margin-left: 50px;
+    height: auto;
+    text-align: left;
+    margin-top: 5px;
+}
+
+.adv p{
+    color: #686b78;
+    font-weight: 300;
+    letter-spacing: 1px;
+}

@@ -1,0 +1,73 @@
+.signup{
+    background-color: black;
+    color: whitesmoke;
+    border: none;
+}
+
+.login{
+    background-color: white;
+  border: none;
+}
+
+.login:hover{
+    color: orange;
+    
+}
+
+.navigation div img{
+    height:70px;
+    width: 250px;
+    border: none;
+}
+
+button{
+    height: 60px;
+    width: 120px;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100vh;
+    height: 100px;
+    background-color:#FFFFFF;
+    margin-top: 30px;
+    
+}
+
+@media (max-width: 1280px) {
+    .navigation div img{
+        height:70px;
+        width: 250px;
+        border: none;
+    }
+
+    button{
+        height: 50px;
+        width: 100px;
+        text-align: center;
+        font-size: large;
+        font-weight: bold;
+    }
+}
+
+@media (min-width: 500px) {
+    .signup{
+        background-color: black;
+        color: whitesmoke;
+        border: none;
+        margin-right: 150px;
+    }
+
+    .navigation div img{
+        height:70px;
+        width: 250px;
+        border: none;
+        margin-left: 50px;
+    }
+
+}

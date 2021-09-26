@@ -1,0 +1,36 @@
+.jumbo{
+    display: flex;
+    height: 500px;
+    margin-left: 60px;
+
+}
+
+.image{
+    width: 550px;
+    height: 500px;
+   margin-left: 20px;
+}
+
+@media (max-width: 1250px){
+    .image{
+        display: none;
+    }
+
+    .jumbo{
+        display: flex;
+        height: 500px;
+        margin-left: 100px;
+        justify-content: center;
+    }
+
+}
+
+@media (min-width: 500px) {
+    .jumbo{
+        margin-left: 200px;
+        width: 300px;
+        text-align: center;
+    }
+
+    
+}

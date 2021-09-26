@@ -1,0 +1,29 @@
+.FFbtn{
+    background-color: #fc8019;
+    text-align: center;
+    cursor: pointer;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    border: none;
+    padding: 10px;
+    width: 300px;
+    padding-right: 20px;
+}
+
+.search{
+    text-align: left;
+    color: whitesmoke;
+    width: 150%;
+    height: auto;
+    margin-left: 20px;
+}
+
+form{
+    display: flex;
+    justify-content: left;
+    margin-left: 30px;
+    
+    margin-right: 75px;
+}
+

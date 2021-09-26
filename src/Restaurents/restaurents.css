@@ -1,0 +1,87 @@
+.playApple{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.playApple img{
+    height: 70px;
+    width: 200px;
+}
+
+.mobiles{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.mobiles img{
+    height: auto;
+    width: 310px;
+
+}
+
+.restaurent{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   margin-left: 100px;
+   height: 500px;
+}
+
+.restaurent h1{
+    margin-right: 10px;
+    color: #282c3f;
+    font-weight: bold;
+}
+
+.restaurent p{
+    color: #7e808c;
+}
+
+.content{
+  text-align: left;
+  margin-left: 70px;;
+}
+
+.firstdiv{
+    margin-top: 100px;
+}
+
+@media (max-width: 1300px) {
+    .mobiles{
+        display: none;
+    }
+
+    .restaurent{
+        text-align: left;
+        height: 500px;
+        margin-left: 300px;
+        font-size: large;
+     }
+
+     .playApple img{
+        height: 70px;
+        width: 150px;
+        align-content: flex-start;
+        margin-left: 50px;
+    }
+}
+
+@media (min-width: 500px) {
+
+    .restaurent{
+        text-align: left;
+        height: 500px;
+        margin-left: 40px;
+        font-size: large;
+     }
+
+     .playApple img{
+        height: 50px;
+        width: 100px;
+        align-content: flex-start;
+        margin-left: 50px;
+    }
+}
